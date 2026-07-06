@@ -1,8 +1,9 @@
 package com.ai.AiToolkit.Service;
 
 import org.springframework.ai.chat.model.ChatModel;
+import org.springframework.stereotype.Service;
 
-
+@Service
 public class ChatService
 {
     //Taking the instance of the chat model to call the model and get the response
